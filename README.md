@@ -59,6 +59,8 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+a closure gives assess to an outer functions scope from within an inner function. so it reaches outside of a function to reach to another one externally as a reference point.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -79,9 +81,13 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
+a. Where is closure used in this code? How can you tell? I would imagine the return function() is closure because theres an outside reference to it that isnt within this block scope
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+the outcome could change because its function is based off a sense of spontenaity. and whats always the same is its lexical scope value that will never change.
+
 c. What is the lexical scope of `newRoll`? 
+function scope not global only able to be invoked within that function.
 
 
 ### Task 3 - Stretch Goals
